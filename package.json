@@ -1,0 +1,23 @@
+{
+  "name": "firestore-size",
+  "version": "2.0.0",
+  "description": "Calculates the approximate size of Firestore document.",
+  "repository": "git@github.com:alekslario/firestore-size.git",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -t test/"
+  },
+  "author": "github.com/alekslario",
+  "license": "MIT",
+  "keywords": [
+    "firestore",
+    "document",
+    "size",
+    "firebase",
+    "sizeof"
+  ],
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
