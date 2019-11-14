@@ -5,7 +5,7 @@
 ![npm bundle size](https://img.shields.io/bundlephobia/min/firestore-size)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/firestore-size)
-![npm](https://img.shields.io/npm/v/firestore-size)
+[![npm](https://img.shields.io/npm/v/firestore-size)](https://www.npmjs.com/package/firestore-size)
 This tiny package calculates the approximate size (in bytes) of a Firestore document. 
 
 ## Installation
