@@ -3,7 +3,7 @@ var assert = require("assert"),
 var initialDocSize = 32;
 describe("sizeof", function() {
   it("basic", function() {
-    assert.equal(4 + initialDocSize, sizeof("abc"));
+    assert.equal(6 + initialDocSize, sizeof("abc"));
     assert.equal(8 + initialDocSize, sizeof(123));
     assert.equal(1 + initialDocSize, sizeof(false));
   });
