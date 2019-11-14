@@ -25,7 +25,7 @@ const snapshot = db
       .get();
       
 const bytes = sizeof(snapshot.data());
-console.log( bytes > 1000 ? 'I'm in awe of the size of this lad!': 'Ew..')
+console.log( bytes > 1000 ? "I'm in awe of the size of this lad!": "Ew..")
 ```
 ## How it works
 
