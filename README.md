@@ -4,9 +4,9 @@
 
 ![npm bundle size](https://img.shields.io/bundlephobia/min/firestore-size)
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/npm/firestore-size)
+![David](https://img.shields.io/david/alekslario/firestore-size)
 [![npm](https://img.shields.io/npm/v/firestore-size)](https://www.npmjs.com/package/firestore-size)
-This tiny package calculates the approximate size (in bytes) of a Firestore document. 
+This tiny package calculates the approximate size (in bytes) of a Firestore document.
 
 ## Installation
 
@@ -23,9 +23,11 @@ const snapshot = db
       .collection("data")
       .doc(id)
       .get();
-      
-const bytes = sizeof(snapshot.data());
+const data = snapshot.data(); 
+
+const bytes = sizeof(data);
 console.log( bytes > 1000 ? "I'm in awe of the size of this lad!": "Ew..")
+console.log( typeof bytes === 'number'); //true
 ```
 ## How it works
 
