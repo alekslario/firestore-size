@@ -45,7 +45,7 @@ More on how the size is calculated in firestore docs - [documentation](https://f
 
 ## Important notice
 
-Does not take into account the name of the document.
+Does not take into account the name of a document.
 
 For a document in the subcollection ```users/jeff/tasks``` with a string document ID of ```my_task_id```, the document name size is 6 + 5 + 6 + 11 + 16 = 44 bytes. [More about it in docs.](https://firebase.google.com/docs/firestore/storage-size#document-name-size)
 
