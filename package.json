@@ -1,6 +1,6 @@
 {
   "name": "firestore-size",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Calculates the approximate size of Firestore document.",
   "repository": "https://github.com/alekslario/firestore-size.git",
   "main": "index.js",
