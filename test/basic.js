@@ -7,6 +7,12 @@ describe("sizeof", function() {
     assert.equal(8 + initialDocSize, sizeof(123));
     assert.equal(1 + initialDocSize, sizeof(false));
   });
+  it("alphabets", function() {
+    assert.equal(10 + initialDocSize, sizeof("åß∂ƒ"));
+    assert.equal(13 + initialDocSize, sizeof("ثبهخنى"));
+    assert.equal(7 + initialDocSize, sizeof("你好"));
+    assert.equal(36 + initialDocSize, sizeof("ха ха...шутка что ли?"));
+  });
   it("null", function() {
     assert.equal(1 + initialDocSize, sizeof(null));
     assert.equal(5 + initialDocSize, sizeof({ abc: null }));
