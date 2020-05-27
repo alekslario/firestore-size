@@ -12,7 +12,7 @@ function bufferSize(str) {
 describe("string byte length function is accurate", () => {
   it("produces the same result as using Buffer", () => {
 
-    const tests = ["Hello world", "åß∂ƒ", "ثبهخنى", "你好", "ха ха...шутка что ли?"];
+    const tests = ["Hello world", "åß∂ƒ", "ثبهخنى", "你好", "ха ха...шутка что ли?", ""];
 
     tests.forEach(item => {
       assert.equal(lengthInUtf8Bytes(item), bufferSize(item));
