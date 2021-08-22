@@ -4,6 +4,7 @@
   "description": "Calculates the approximate size of Firestore document.",
   "repository": "https://github.com/alekslario/firestore-size.git",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
     "test": "mocha -t test/"
   },
